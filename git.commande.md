@@ -1,0 +1,14 @@
+ ssh-keygen -t rsa -b 4096 -C "mail" : generer un clé 
+ 
+ 
+  git config --global user.email "mail"
+  git config --global user.name "nom"
+  git config --global core.sshCommand "ssh -i ~/.ssh/id_rsa" pour la cle ssh 
+  git config --global credential.helper 'cache --timeout=15552000' garder les login en memoire 
+  git commit -m "update"
+  git push
+  git status
+  git checkout main : changer de branche 
+  git checkout -b sysadmin (creer une branche)
+  git merge sysadmin
+
