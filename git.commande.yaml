@@ -11,4 +11,5 @@
   git checkout main : changer de branche 
   git checkout -b sysadmin (creer une branche)
   git merge sysadmin
-
+  git rm example.txt suppirmer 
+ 
